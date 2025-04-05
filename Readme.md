@@ -138,12 +138,14 @@ Local LLM Setup:
     ```
 
 15. **flow_10.py**  
-    **Purpose:** Introspection workflow for reasoning and answer validation.  
-    **Features:** Uses multiple LLMs to generate, introspect, and link reasoning to answers.  
+    **Purpose:** Demonstrates ReAct-style tool usage with a local LLM using ChatOpenAI and `langgraph`.  
+    **Features:** Incorporates a custom `get_weather` tool, shows graph rendering, and prints streaming outputs for different user queries.  
     **Example Usage:**
     ```bash
     python flow_10.py
     ```
+    **Output:** Weather information for specific cities and LLM responses to general questions.
+
 
 ## Usage Notes
 
