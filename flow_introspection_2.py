@@ -1,7 +1,6 @@
 from langgraph.graph import Graph
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field
-import re
 from typing import Optional
 import logging
 
