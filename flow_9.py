@@ -38,9 +38,9 @@ def llm_call_generator(topic: str):
 
 
 @task
-def llm_call_evaluator(joke: str):
+def llm_call_evaluator(answer: str):
     """LLM evaluates the joke"""
-    feedback = evaluator.invoke(f"Fact check the following fact : {joke}")
+    feedback = evaluator.invoke(f"Fact check the following fact : {answer}")
     return feedback
 
 
