@@ -27,7 +27,7 @@ class IntrospectionResult(BaseModel):
     relationships: list[Relationship] = Field(description="Liste des relations raisonnement-réponse")
     comment: str | None = Field(default=None, description="Commentaire global sur la cohérence de la réponse")
 
-    # Extraction robuste du raisonnement et de la réponse
+# Extraction robuste du raisonnement et de la réponse
 def extract_reasoning_and_answer(response: str) -> tuple[str, str]:
     thinks = response.split("</think>")
     if len(thinks) <= 1:
