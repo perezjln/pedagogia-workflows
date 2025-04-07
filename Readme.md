@@ -72,18 +72,6 @@ cd examples
 python flow_1.py
 ```
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-For more information, please refer to the [LangChain documentation](https://langchain.readthedocs.io/).
-
 ## File Descriptions
 
 ### `flow_code_analysis_1.py`
